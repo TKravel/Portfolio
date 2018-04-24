@@ -1,0 +1,176 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  margin: 0;
+  height: 100%;
+}
+body{
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+.section-title{
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+}
+ul{
+  text-align: center;
+  font-size: .5em;
+  padding-left: 0;
+  list-style: none;
+}
+li{
+  text-align: center;
+  margin:  auto;
+  display: inline-block;
+  padding: .5em;
+}
+@media (min-width: 768px) {
+  .section-title{
+  font-size: 4em;
+  text-align: center;
+  margin: auto;
+}
+}
+/* Landing page, main NAV */
+#front-page{
+  background-image: url(https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?cs=srgb&dl=art-artist-calligraphy-57690.jpg&fm=jpg);
+  /* background-image: url(https://images.pexels.com/photos/436775/pexels-photo-436775.jpeg?cs=srgb&dl=art-artist-blur-436775.jpg&fm=jpg); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
+  color: #fff;
+}
+#nav a{
+  font-size: 1.1em;
+  padding: .5em;
+  color: #fff;
+  text-decoration: none;
+  background-color:  rgba(0, 0, 0, .8);
+}
+#nav li{
+  display: inline-block;
+  font-size: 2em;
+  border: .5px solid #fff;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, .5);
+}
+h1{
+ text-align: center;
+ margin: 3em 1em .5em 1em;
+ padding: .5em 0 .5em .0em;
+ font-family: 'Gloria Hallelujah', cursive;
+ font-size: 1.5em;
+ border-radius: 10px;
+ background-color: rgba(0, 0, 0, .5);
+}
+@media (min-width: 768px) {
+  #nav li{
+    font-size: 3em;
+    padding: .3em 1.5em;
+    margin: 0em 2em;
+  }
+  h1{
+    margin: 5em 8em .5em 8em;
+  }
+}
+/* About page, profile pic, bio */
+#about{
+  padding: 2em;
+  background-image: url(https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?cs=srgb&dl=board-bright-design-235994.jpg&fm=jpg);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+#profileImg{
+  display: block;
+  border: .7px solid #5c5c5c;
+  border-radius: 50%;
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+#bio{
+  text-align: center;
+  margin: .5em 1em .5em 1em;
+  font-size: 1.1em;
+}
+.project{
+  display: block;
+  margin: auto;
+  padding-top: .5em;
+}
+/* @media (min-width: 768px) {
+  #profileImg{
+  border: .7px solid #5c5c5c;
+  border-radius: 50%;
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+  #bio{
+  font-size: 1.5em;
+}
+} */
+/* Portfolio page */
+#portfolio{
+  background-color: rgba(226, 226, 226, 1);
+
+}
+/* Contact page, social media icons */
+#contact{
+  background-image: url(https://images.unsplash.com/photo-1510442650500-93217e634e4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec11732c94e28c043a7c6f2dec4c3e53&auto=format&fit=crop&w=1274&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+.address{
+  font-size: 1.5em;
+  width: 75%;
+  margin: 3em auto;
+  padding: .5em;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .4);
+}
+.social-M{
+  color: lime;
+  font-size: 2.8em;
+  padding: 0;
+  margin: 2em .3em .5em .3em;
+}
+.copy-right{
+  color: #fff;
+  font-size: 1.5em;
+}
+@media (min-width: 768px) {
+  .address{
+    width: 40%;
+    margin-bottom: 0;
+  }
+  #contact .section-title{
+    width: 30%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .4);
+  }
+}
+.return-arrow{
+  text-align: right;
+  font-size: 1em;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, .4);
+  padding: 1em;
+  color: #000;
+}
+.b-nav{
+  text-align: right;
+}
+@media (min-width: 768px) { ... }
