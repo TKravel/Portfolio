@@ -20,6 +20,13 @@ section {
   text-align: center;
   margin: auto;
 }
+@media (min-width: 768px) {
+  .section-title{
+  font-size: 4em;
+  text-align: center;
+  margin: auto;
+  }
+}
 ul{
   text-align: center;
   font-size: .5em;
@@ -31,13 +38,6 @@ li{
   margin:  auto;
   display: inline-block;
   padding: .5em;
-}
-@media (min-width: 768px) {
-  .section-title{
-  font-size: 4em;
-  text-align: center;
-  margin: auto;
-}
 }
 /* Landing page, main NAV */
 #front-page{
@@ -56,11 +56,20 @@ h1{
  font-family: 'Gloria Hallelujah', cursive;
  font-size: 1.5em;
  text-shadow: 5px 5px 1px #000;
+ border: solid 0px black;
+ border-radius: 10px;
+ background-color: rgba(0, 0, 0, .4);
 }
 @media (min-width:768px){
   h1 {
-    margin: 3em 1em 3em 1em;
-    font-size: 4em;
+    margin: 4em 1em 3em 1em;
+    font-size: 2em;
+  }
+}
+@media (min-width:860px){
+  h1 {
+    margin: 2em 1em 3em 1em;
+    font-size: 3em;
   }
 }
 /* About page, profile pic, bio */
@@ -90,6 +99,10 @@ h1{
   #bio{
     font-size: 2em;
   }
+  #profileImg{
+    float: left;
+    margin: 2em;
+  }
 }
 /* Portfolio section */
 #portfolio{
@@ -109,7 +122,7 @@ h1{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+  height: 100vh;
   width: auto;
   text-align: center;
   
@@ -128,22 +141,33 @@ h1{
   padding: 0;
   margin: 2em .3em .5em .3em;
 }
-.copy-right{
-  color: #fff;
-  font-size: 1.5em;
-}
 @media (min-width: 768px) {
   #contact{
-    overflow: inherit;
+    background-image: url(../img/contactDesktop.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    text-align: center;
   }
   .address{
-    width: 40%;
     font-size: 2em;
-    margin-bottom: 3em;
-    margin-top: 10em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    background-color: transparent;
   }
-  .copy-right{
-    margin-top: 6em;
+  .social-M{
+    color: #1e1075;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+  #wrapper{
+    background-color: #fff;
+    border-radius: 10px;
+    margin: auto;
+    width: 45%;
+
   }
   
 }
