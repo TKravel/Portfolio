@@ -1,25 +1,30 @@
 *{
   box-sizing: border-box;
 }
-html{
+
+html {
   margin: 0;
   height: 100%;
 }
-body{
+
+body {
   margin: 0;
   height: 100%;
   text-align: center;
   font-family: 'Pathway Gothic One', sans-serif;
   background-color: rgba(226, 226, 226, 1);
 }
+
 section {
   padding-top: 56px;
 }
-.section-title{
+
+.section-title {
   font-size: 2em;
   text-align: center;
   margin: auto;
 }
+
 @media (min-width: 768px) {
   .section-title{
   font-size: 4em;
@@ -27,23 +32,29 @@ section {
   margin: auto;
   }
 }
-ul{
+
+ul {
   text-align: center;
-  font-size: .5em;
+  font-size: 2.5em;
   padding-left: 0;
+  margin-bottom: 0;
   list-style: none;
 }
-li{
+
+li {
   text-align: center;
   margin:  auto;
   display: inline-block;
   padding: .5em;
 }
-.logo{
+
+/* Landing page, main NAV */
+
+.logo {
   height: 2.2em;
 }
-/* Landing page, main NAV */
-#front-page{
+
+#front-page {
   background-image: url(../img/hero1.jpg);
   background-size: cover;
   background-position: center;
@@ -53,69 +64,87 @@ li{
   color: #fff;
   position: relative;
 }
-h1{
- text-align: center;
- padding: .5em;
- font-size: 1.5em;
- text-shadow: 5px 5px 1px #000;
- border: solid 0px black;
- border-radius: 10px;
- background-color: rgba(0, 0, 0, .4);
+
+h1 {
+  text-align: center;
+  padding: .5em;
+  font-size: 1.5em;
+  text-shadow: 5px 5px 1px #000;
+  border: solid 0px black;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, .4);
 }
-.hero-text{
+
+.hero-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-@media (min-width:768px){
+
+@media (min-width:768px) {
   h1 {
     margin: 4em 1em 3em 1em;
     font-size: 2em;
   }
 }
-@media (min-width:860px){
+
+@media (min-width:860px) {
   h1 {
     margin: 2em 1em 3em 1em;
     font-size: 3em;
   }
 }
+
 /* About page, profile pic, bio */
-#profileImg{
+
+#about {
+  padding-top: 56px;
+}
+#profile-img {
   border: .7px solid #5c5c5c;
   border-radius: 50%;
   height: auto;
   width: 35%;
 }
-#bio{
+
+#bio {
   text-align: center;
   margin: .5em 1em .5em 1em;
   font-size: 1.1em;
 }
-@media (min-width:575px){
-  #profileImg{
+
+@media (min-width:575px) {
+  #profile-img {
     width: 70%;
   }
 }
-@media (min-width:768px){
-  #bio{
+
+@media (min-width:768px) {
+  #bio {
     font-size: 2em;
   }
 }
+
 /* Portfolio section */
-#portfolio{
+
+#portfolio {
   background-color: rgba(226, 226, 226, 1);
 }
-.project{
+
+.project {
   margin-bottom: 1em;
 }
-@media (min-width:768px){
+
+@media (min-width:768px) {
   .project-title {
     font-size: 2em;
   }
 }
+
 /* Contact page, social media icons */
-#contact{
+
+#contact {
   background-image: url(../img/contactBK.jpg);
   background-size: cover;
   background-position: center;
@@ -125,19 +154,22 @@ h1{
   text-align: center;
   position: relative;
 }
-.address{
+
+.address {
   font-size: 1.5em;
   width: 75%;
-  margin: 3em auto;
+  margin: 1.5em auto;
   padding-top: .5em;
 }
-.social-M{
+
+.social-m {
   color: lime;
-  font-size: 2.8em;
+  font-size: 4em;
   padding: 0;
   margin: 2em auto 0em auto;
 }
-#wrapper{
+
+#wrapper {
   background-color: rgba(255, 255, 255, .4);
   border-radius: 10px;
   margin: 56px auto 0 auto;
@@ -147,8 +179,9 @@ h1{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 @media (min-width: 768px) {
-  #contact{
+  #contact {
     background-image: url(../img/contactDesktop.jpeg);
     background-size: cover;
     background-position: center;
@@ -157,18 +190,18 @@ h1{
     width: auto;
     text-align: center;
   }
-  .address{
+  .address {
     font-size: 2em;
     margin-bottom: .5em;
     margin-top: .5em;
     background-color: transparent;
   }
-  .social-M{
+  .social-m {
     color: #1e1075;
     margin-bottom: 1em;
     margin-top: 1em;
   }
-  #wrapper{
+  #wrapper {
     background-color: #fff;
   }
 }
