@@ -11,7 +11,7 @@ body {
   margin: 0;
   height: 100%;
   text-align: center;
-  font-family: 'Pathway Gothic One', sans-serif;
+  font-family: "Pathway Gothic One", sans-serif;
   background-color: rgba(226, 226, 226, 1);
 }
 
@@ -45,7 +45,7 @@ li {
   text-align: center;
   margin:  auto;
   display: inline-block;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 /* Landing page, main NAV */
@@ -67,12 +67,12 @@ li {
 
 h1 {
   text-align: center;
-  padding: .5em;
+  padding: 0.5em;
   font-size: 1.5em;
   text-shadow: 5px 5px 1px #000;
   border: solid 0px black;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .hero-text {
@@ -102,7 +102,7 @@ h1 {
   padding-top: 56px;
 }
 #profile-img {
-  border: .7px solid #5c5c5c;
+  border: 0.7px solid #5c5c5c;
   border-radius: 50%;
   height: auto;
   width: 35%;
@@ -159,18 +159,18 @@ h1 {
   font-size: 1.5em;
   width: 75%;
   margin: 1.5em auto;
-  padding-top: .5em;
+  padding-top: 0.5em;
 }
 
 .social-m {
   color: lime;
   font-size: 4em;
   padding: 0;
-  margin: 2em auto 0em auto;
+  margin: 2em auto 0 auto;
 }
 
 #wrapper {
-  background-color: rgba(255, 255, 255, .4);
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 10px;
   margin: 56px auto 0 auto;
   width: 75%;
@@ -192,8 +192,8 @@ h1 {
   }
   .address {
     font-size: 2em;
-    margin-bottom: .5em;
-    margin-top: .5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
     background-color: transparent;
   }
   .social-m {
